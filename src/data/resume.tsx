@@ -4,7 +4,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Amama Fatima",
   initials: "DV",
-  url: "https://dillion.io",
   location: "Islamabad, Pakistan",
   description: "",
   summary:
@@ -58,13 +57,25 @@ export const DATA = {
       start: "Aug 2024",
       end: "Oct 2024",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Worked as a Next.js developer",
+    },
+    {
+      company: "Scient Systems",
+      href: "https://www.linkedin.com/company/scient-systems/posts/?feedView=all",
+      badges: [""],
+      location: "Remote",
+      title: "Scient Systems",
+      logoUrl: "/scient_systems_logo.jpg",
+      start: "Feb 2025",
+      end: "Present",
+      description:
+        "",
     },
   ],
   education: [
     {
       school: "Comsats Univeristy, Islamabad",
-      href: "https://buildspace.so",
+      href: "https://www.comsats.edu.pk/",
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/COMSATS-logo.png",
       start: "2022",
@@ -72,6 +83,26 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "LeNet CNN Implementation",
+      href: "https://lenet-cnn-digit-classification.onrender.com/",
+      dates: "Feb 2025 - Mar 2025",
+      active: false,
+      description: "A numpy implementation of the LeNet-CNN trained on emnist dataset",
+      technologies: [
+        "Python",
+        "Numpy",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://lenet-cnn-digit-classification.onrender.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/lenet-cnn.png",
+      video: "",
+    },
     {
       title: "DealGuru",
       href: "https://dealguru.se/",
