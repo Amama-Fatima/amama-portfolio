@@ -19,7 +19,14 @@ export const DATA = {
     "Postgres, MongoDB",
     "Docker",
     "TailwindCSS",
-    "Node.js",
+    "Express.js",
+    "FastAPI",
+    "Drizzle",
+    "tRPC",
+    "Python",
+    "Numpy",
+    "Pandas",
+    "Scikit-learn",
   ],
   contact: {
     email: "amamafatima58@gmail.com",
@@ -67,7 +74,7 @@ export const DATA = {
       title: "Scient Systems",
       logoUrl: "/scient_systems_logo.jpg",
       start: "Feb 2025",
-      end: "Present",
+      end: "June 2025",
       description:
         "",
     },
@@ -88,7 +95,7 @@ export const DATA = {
       href: "https://lenet-cnn-digit-classification.onrender.com/",
       dates: "Feb 2025 - Mar 2025",
       active: false,
-      description: "A numpy implementation of the LeNet-CNN trained on emnist dataset",
+      description: "A purely Numpy based implementation of the LeNet-CNN trained on Emnist dataset",
       technologies: [
         "Python",
         "Numpy",
@@ -99,9 +106,14 @@ export const DATA = {
           href: "https://lenet-cnn-digit-classification.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Amama-Fatima/LeNet-CNN-implementation",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "/lenet-cnn.png",
-      video: "",
+      // image: "/lenet-cnn.png",
+      video: "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
     },
     {
       title: "DealGuru",
@@ -141,6 +153,10 @@ export const DATA = {
         "Supabase",
         "TailwindCSS",
         "Shadcn UI",
+        "Zod",
+        "React Query",
+        "React Hook Form",
+        "Zustand",
       ],
       links: [
         {
@@ -156,6 +172,57 @@ export const DATA = {
       ],
       image: "/team-manager.png",
       video: "",
+    },
+    {
+      title: "Telecom Churn Prediction AI Model",
+      href: "https://github.com/Amama-Fatima/telecom-churn-prediction",
+      dates: "Jan 2024 - April 2024",
+      active: false,
+      description: "AI model to predict churn in telecom customers. Performed EDA, statistical analysis, and built a predictive model using XGBoost, CatBoost, and LightGBM and Ensemble methods.",
+      technologies: [
+        "Python",
+        "Numpy",
+        "Pandas",
+        "Seaborn",
+        "Scikit-learn",
+        "XGBoost",
+        "CatBoost",
+        "LightGBM",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://telecom-churn-prediction-amama.streamlit.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Amama-Fatima/telecom-churn-prediction",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/churn.png",
+      video: "",
+    },
+    {
+      title: "Github MCP Server",
+      href: "https://github.com/Amama-Fatima/github-mcp",
+      dates: "July 2025",
+      active: false,
+      description: "A Github MCP server for Github repository management",
+      technologies: [
+        "Python",
+        "FastAPI",
+        "MCP"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/Amama-Fatima/github-mcp",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "https://github.com/user-attachments/assets/751d371c-b067-492d-bdc8-84a8217e0e1c",
     },
     {
       title: "Movix",
