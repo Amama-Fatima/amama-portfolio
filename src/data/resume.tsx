@@ -112,7 +112,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      // image: "/lenet-cnn.png",
+      image: "",
       video: "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
     },
     {
@@ -223,6 +223,7 @@ export const DATA = {
         },
       ],
       video: "https://github.com/user-attachments/assets/751d371c-b067-492d-bdc8-84a8217e0e1c",
+      image: "",
     },
     {
       title: "Movix",
