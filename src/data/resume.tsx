@@ -57,7 +57,7 @@ export const DATA = {
     {
       company: "Deal Guru",
       href: "https://dealguru.se/",
-      badges: ["ecommerce"],
+      badges: ["ecommerce", "Full Stack Web Developer"],
       location: "Remote",
       title: "DealGuru",
       logoUrl: "/deal-guru.png",
@@ -69,7 +69,7 @@ export const DATA = {
     {
       company: "Scient Systems",
       href: "https://www.linkedin.com/company/scient-systems/posts/?feedView=all",
-      badges: [""],
+      badges: ["Full Stack Web Developer"],
       location: "Remote",
       title: "Scient Systems",
       logoUrl: "/scient_systems_logo.jpg",
