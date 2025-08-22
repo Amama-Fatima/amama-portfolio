@@ -63,8 +63,7 @@ export const DATA = {
       logoUrl: "/deal-guru.png",
       start: "Aug 2024",
       end: "Oct 2024",
-      description:
-        "Worked as a Next.js developer",
+      description: "Worked as a Next.js developer",
     },
     {
       company: "Scient Systems",
@@ -75,8 +74,7 @@ export const DATA = {
       logoUrl: "/scient_systems_logo.jpg",
       start: "Feb 2025",
       end: "June 2025",
-      description:
-        "",
+      description: "",
     },
   ],
   education: [
@@ -95,15 +93,13 @@ export const DATA = {
       href: "https://lenet-cnn-digit-classification.onrender.com/",
       dates: "Feb 2025 - Mar 2025",
       active: false,
-      description: "A purely Numpy based implementation of the LeNet-CNN trained on Emnist dataset",
-      technologies: [
-        "Python",
-        "Numpy",
-      ],
+      description:
+        "A purely Numpy based implementation of the LeNet-CNN trained on Emnist dataset",
+      technologies: ["Python", "Numpy"],
       links: [
         {
           type: "Website",
-          href: "https://lenet-cnn-digit-classification.onrender.com/",
+          href: "https://web-production-cce99.up.railway.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -113,7 +109,8 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
+      video:
+        "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
     },
     {
       title: "DealGuru",
@@ -178,7 +175,8 @@ export const DATA = {
       href: "https://github.com/Amama-Fatima/telecom-churn-prediction",
       dates: "Jan 2024 - April 2024",
       active: false,
-      description: "AI model to predict churn in telecom customers. Performed EDA, statistical analysis, and built a predictive model using XGBoost, CatBoost, and LightGBM and Ensemble methods.",
+      description:
+        "AI model to predict churn in telecom customers. Performed EDA, statistical analysis, and built a predictive model using XGBoost, CatBoost, and LightGBM and Ensemble methods.",
       technologies: [
         "Python",
         "Numpy",
@@ -210,11 +208,7 @@ export const DATA = {
       dates: "July 2025",
       active: false,
       description: "A Github MCP server for Github repository management",
-      technologies: [
-        "Python",
-        "FastAPI",
-        "MCP"
-      ],
+      technologies: ["Python", "FastAPI", "MCP"],
       links: [
         {
           type: "Source",
@@ -222,7 +216,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      video: "https://github.com/user-attachments/assets/751d371c-b067-492d-bdc8-84a8217e0e1c",
+      video:
+        "https://github.com/user-attachments/assets/751d371c-b067-492d-bdc8-84a8217e0e1c",
       image: "",
     },
     {
