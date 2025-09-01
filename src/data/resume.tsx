@@ -221,6 +221,36 @@ export const DATA = {
       image: "",
     },
     {
+      title: "PinPersona",
+      href: "https://pin-persona.vercel.app/",
+      dates: "",
+      active: false,
+      description:
+        "LoRA fine tuned the flan-t5-base model to generate pinterest specific keywords for a historical personality",
+      technologies: [
+        "LoRA Fine Tuning",
+        "Hugging Face Transformers",
+        "Flan-T5",
+        "Deep Learning",
+        "Puppeteer",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://pin-persona.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Amama-Fatima/pin-persona",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "https://github.com/user-attachments/assets/2c6e514e-0fc8-4b5d-8e16-a5341211d942",
+    },
+    {
       title: "Movix",
       href: "https://movix-two-zeta.vercel.app/",
       dates: "",
