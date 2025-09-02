@@ -246,9 +246,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
       video:
-        "https://github.com/user-attachments/assets/2c6e514e-0fc8-4b5d-8e16-a5341211d942",
+        "https://github.com/user-attachments/assets/8ebe4cbb-ed61-49d6-9248-6818e39a89cd",
+      image: "",
     },
     {
       title: "Movix",
