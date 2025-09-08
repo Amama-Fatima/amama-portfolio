@@ -90,7 +90,7 @@ export const DATA = {
   projects: [
     {
       title: "LeNet CNN Implementation",
-      href: "https://web-production-cce99.up.railway.app/",
+      href: "https://lenet-cnn-digit-classification.onrender.com/",
       dates: "Feb 2025 - Mar 2025",
       active: false,
       description:
@@ -99,7 +99,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://web-production-cce99.up.railway.app/",
+          href: "https://lenet-cnn-digit-classification.onrender.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
