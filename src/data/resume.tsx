@@ -3,7 +3,6 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Amama Fatima",
-  initials: "DV",
   location: "Islamabad, Pakistan",
   description: "",
   summary:
@@ -219,6 +218,29 @@ export const DATA = {
       video:
         "https://github.com/user-attachments/assets/751d371c-b067-492d-bdc8-84a8217e0e1c",
       image: "",
+    },
+    {
+      title: "Hotel Booking App",
+      href: "https://hotel-booking-website-pi.vercel.app",
+      dates: "Oct 2024",
+      active: false,
+      description:
+        "Add, view, search, filter, manage and book hotels with secure booking flow.",
+      technologies: ["React", "TypeScript", "Express.js", "MongoDB"],
+      links: [
+        {
+          type: "Website",
+          href: "https://hotel-booking-website-pi.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/NoorFatima01/book-holidays",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      video: "",
+      image: "/hotel-booking-app.jpg",
     },
     {
       title: "PinPersona",
