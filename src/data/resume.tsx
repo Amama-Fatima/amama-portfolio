@@ -4,6 +4,8 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Amama Fatima",
   location: "Islamabad, Pakistan",
+  initials: "",
+  title: "Full Stack Developer",
   description: "",
   summary:
     "Web developer specializing in building scalable solutions with Next.js and MERN stack. Currently expanding expertise in AI/ML, focusing on convolutional neural networks (CNNs) to integrate intelligent features into web applications. Pragmatic problem-solver prioritizing clean, maintainable code and collaborative execution.",
