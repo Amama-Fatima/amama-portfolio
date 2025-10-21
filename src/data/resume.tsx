@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Amama Fatima",
   location: "Islamabad, Pakistan",
-  initials: "",
+  initials: "AF",
   title: "Full Stack Developer",
   description: "",
   summary:
@@ -91,7 +91,7 @@ export const DATA = {
   projects: [
     {
       title: "LeNet CNN Implementation",
-      href: "https://lenet-cnn-digit-classification.onrender.com/",
+      href: "https://django-app-789455248731.asia-south1.run.app/",
       dates: "Feb 2025 - Mar 2025",
       active: false,
       description:
@@ -100,7 +100,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://lenet-cnn-digit-classification.onrender.com/",
+          href: "https://django-app-789455248731.asia-south1.run.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
