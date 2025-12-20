@@ -29,6 +29,14 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
+              <Link
+                href="https://drive.google.com/file/d/1VNmvmDzBzVoRkqvGp3YUs3u6OsLZwWby/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline hover:text-blue-800 font-medium mt-2 w-fit"
+              >
+                Resume
+              </Link>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
@@ -123,8 +131,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                   Here are a few of my
-                  favorites.
+                  Here are a few of my favorites.
                 </p>
               </div>
             </div>

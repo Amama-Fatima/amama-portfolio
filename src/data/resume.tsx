@@ -6,7 +6,7 @@ export const DATA = {
   location: "Islamabad, Pakistan",
   initials: "AF",
   title: "Full Stack Developer",
-  description: "",
+  description: "Full Stack Software Developer",
   summary:
     "Web developer specializing in building scalable solutions with Next.js and MERN stack. Currently expanding expertise in AI/ML, focusing on convolutional neural networks (CNNs) to integrate intelligent features into web applications. Pragmatic problem-solver prioritizing clean, maintainable code and collaborative execution.",
   avatarUrl: "/pic.png",
