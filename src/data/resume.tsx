@@ -8,26 +8,26 @@ export const DATA = {
   title: "Full Stack Developer",
   description: "Full Stack Software Developer",
   summary:
-    "Web developer specializing in building scalable solutions with Next.js and MERN stack. Currently expanding expertise in AI/ML, focusing on convolutional neural networks (CNNs) to integrate intelligent features into web applications. Pragmatic problem-solver prioritizing clean, maintainable code and collaborative execution.",
+    "Full stack engineer with 2 years of experience building web applications using React, Next.js, Node.js, and PostgreSQL",
   avatarUrl: "/pic.png",
   skills: [
-    "React",
+    "React.js",
     "Next.js",
+    "JavaScript",
     "Typescript",
     "Node.js",
     "Python",
     "Supabase",
-    "Postgres, MongoDB",
+    "PostgreSQL",
+    "MongoDB",
     "Docker",
     "TailwindCSS",
     "Express.js",
     "FastAPI",
-    "Drizzle",
+    "Prisma",
     "tRPC",
     "Python",
-    "Numpy",
-    "Pandas",
-    "Scikit-learn",
+    "NestJS",
   ],
   contact: {
     email: "amamafatima58@gmail.com",
@@ -36,7 +36,6 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Amama-Fatima",
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
@@ -45,9 +44,15 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
+      Fiverr: {
+        name: "Fiverr",
+        url: "https://www.fiverr.com/amama_fatimadev",
+        icon: Icons.fiverr,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:amamafatima58@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
@@ -58,7 +63,7 @@ export const DATA = {
     {
       company: "Deal Guru",
       href: "https://dealguru.se/",
-      badges: ["ecommerce", "Full Stack Web Developer"],
+      badges: ["Ecommerce", "Full Stack Web Developer"],
       location: "Remote",
       title: "DealGuru",
       logoUrl: "/deal-guru.png",
@@ -67,14 +72,14 @@ export const DATA = {
       description: "Worked as a Next.js developer",
     },
     {
-      company: "Scient Systems",
-      href: "https://www.linkedin.com/company/scient-systems/posts/?feedView=all",
-      badges: ["Full Stack Web Developer"],
+      company: "Freelance Developer",
+      href: "https://www.fiverr.com/amama_fatimadev",
+      badges: ["Full Stack Web Developer", "MCP Developer"],
       location: "Remote",
-      title: "Scient Systems",
-      logoUrl: "/scient_systems_logo.jpg",
-      start: "Feb 2025",
-      end: "June 2025",
+      title: "Freelance Developer",
+      logoUrl: "/fiverr.png",
+      start: "Oct 2025",
+      end: "Present",
       description: "",
     },
   ],
@@ -89,30 +94,30 @@ export const DATA = {
     },
   ],
   projects: [
-    {
-      title: "LeNet CNN Implementation",
-      href: "https://django-app-789455248731.asia-south1.run.app/",
-      dates: "Feb 2025 - Mar 2025",
-      active: false,
-      description:
-        "A purely Numpy based implementation of the LeNet-CNN trained on Emnist dataset",
-      technologies: ["Python", "Numpy"],
-      links: [
-        {
-          type: "Website",
-          href: "https://django-app-789455248731.asia-south1.run.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Amama-Fatima/LeNet-CNN-implementation",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video:
-        "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
-    },
+    // {
+    //   title: "LeNet CNN Implementation",
+    //   href: "https://django-app-789455248731.asia-south1.run.app/",
+    //   dates: "Feb 2025 - Mar 2025",
+    //   active: false,
+    //   description:
+    //     "A purely Numpy based implementation of the LeNet-CNN trained on Emnist dataset",
+    //   technologies: ["Python", "Numpy"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://django-app-789455248731.asia-south1.run.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/Amama-Fatima/LeNet-CNN-implementation",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   video:
+    //     "https://github.com/user-attachments/assets/4cbab265-41ad-433c-905a-a9ee7c9ea476",
+    // },
     {
       title: "DealGuru",
       href: "https://dealguru.se/",
@@ -273,29 +278,6 @@ export const DATA = {
       video:
         "https://github.com/user-attachments/assets/8ebe4cbb-ed61-49d6-9248-6818e39a89cd",
       image: "",
-    },
-    {
-      title: "Movix",
-      href: "https://movix-two-zeta.vercel.app/",
-      dates: "",
-      active: false,
-      description:
-        "Movie search website. Search for movies and get details about them",
-      technologies: ["React.js", "JavaScript", "CSS", "Redux"],
-      links: [
-        {
-          type: "Website",
-          href: "https://movix-two-zeta.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Amama-Fatima/movix",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/movix.png",
-      video: "",
     },
   ],
 } as const;
