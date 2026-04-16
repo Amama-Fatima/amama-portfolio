@@ -30,7 +30,7 @@ export default function Page() {
                 text={DATA.description}
               />
               <Link
-                href="https://drive.google.com/file/d/1nr8vQ8RAuUcym4vNWAC4V5cxy54UDJgt/view?usp=sharing"
+                href="https://drive.google.com/file/d/1fAiUCLkWbzoPJiUNTS5VzBJ7hfugDIGq/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 underline hover:text-blue-800 font-medium mt-2 w-fit"
