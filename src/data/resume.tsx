@@ -144,6 +144,35 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Detective's Quill",
+      href: "https://detective-quill-frontend.vercel.app/",
+      dates: "Nov 2025 - May 2026",
+      active: false,
+      description: "A story management platform for detective crime fiction writers",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Python",
+        "TailwindCSS",
+        "RabbitMQ",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://detective-quill-frontend.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Amama-Fatima/detective-quill",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/detective-quill.png",
+      video: "",
+    },
+    {
       title: "TeamManager",
       href: "https://team-management-weld.vercel.app/",
       dates: "Jan 2024 - April 2024",
