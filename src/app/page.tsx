@@ -6,6 +6,7 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
+import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -33,9 +34,10 @@ export default function Page() {
                 href="https://drive.google.com/file/d/1wZ2AhPeH3fOU91cyf6zQ5x13HOor0IlY/view"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 underline hover:text-blue-800 font-medium mt-2 w-fit"
+                className="inline-flex items-center gap-1.5 text-blue-600 underline hover:text-blue-800 font-medium mt-2 w-fit"
               >
                 Resume
+                <ExternalLink className="w-4 h-4" />
               </Link>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
